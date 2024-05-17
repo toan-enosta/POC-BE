@@ -1,6 +1,7 @@
 export interface Step {
   name: string;
   element: string;
+  url: string;
   popover: PopoverConfig;
 }
 
