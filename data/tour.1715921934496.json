@@ -5,54 +5,30 @@
       "description": "A tour through the websiteß",
       "steps": [
         {
-          "name": "Step 1: Visit the dashboard",
-          "element": "dashboard",
+          "id": "1716056336024",
+          "element": "body > div > div > div > main > div > div > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div",
+          "url": "http://localhost:5000/",
           "popover": {
-            "title": "dashboard",
-            "description": "The dashboard is a bustling area with a rich history.",
-            "side": "top",
-            "align": "start",
-            "showButtons": ["next", "previous"],
-            "disableButtons": ["close"],
-            "nextBtnText": "Next",
-            "prevBtnText": "Previous",
-            "doneBtnText": "Done",
-            "showProgress": true,
-            "popoverClass": "popover-class-1"
+            "title": "Popover Example",
+            "description": "some description"
           }
         },
         {
-          "name": "Step 2: Visit the table",
-          "element": "table",
+          "id": "1716056390516",
+          "element": "body > div > div > div > main > div > div > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1)",
+          "url": "http://localhost:5000/",
           "popover": {
-            "title": "table",
-            "description": "The table",
-            "side": "top",
-            "align": "start",
-            "showButtons": ["next", "previous"],
-            "disableButtons": ["close"],
-            "nextBtnText": "Next",
-            "prevBtnText": "Previous",
-            "doneBtnText": "Done",
-            "showProgress": true,
-            "popoverClass": "popover-class-2"
+            "title": "Popover Title",
+            "description": "Popover Description"
           }
         },
         {
-          "name": "Step 3: Visit the calendar",
-          "element": "calendar",
+          "id": "1716056418351",
+          "element": "body > div > div > div > main > div > div > div > div:nth-child(3) > div:nth-child(1) > div:nth-child(2)",
+          "url": "http://localhost:5000/",
           "popover": {
-            "title": "calendar",
-            "description": "calendar",
-            "side": "top",
-            "align": "start",
-            "showButtons": ["next", "previous"],
-            "disableButtons": ["close"],
-            "nextBtnText": "Next",
-            "prevBtnText": "Previous",
-            "doneBtnText": "Done",
-            "showProgress": true,
-            "popoverClass": "popover-class-3"
+            "title": "Popover Title",
+            "description": "Popover Description"
           }
         }
       ],

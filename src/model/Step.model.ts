@@ -1,4 +1,5 @@
 export interface Step {
+  id: string;
   name: string;
   element: string;
   url: string;
