@@ -6,4 +6,6 @@ export interface Tour {
   description: string;
   forRole: string;
   steps: Step[];
+  url: string;
+  nextTourId?: string;
 }
