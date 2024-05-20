@@ -4,5 +4,6 @@ export interface Tour {
   id: string;
   name: string;
   description: string;
+  forRole: string;
   steps: Step[];
 }
