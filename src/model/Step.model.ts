@@ -11,6 +11,7 @@ export interface PopoverConfig {
   description?: string;
   detailLink?: string;
   videoLink?: string;
+  type: 'popover' | 'banner';
   side?: 'top' | 'right' | 'bottom' | 'left';
   align?: 'start' | 'center' | 'end';
   showButtons?: ('next' | 'previous' | 'close')[];
