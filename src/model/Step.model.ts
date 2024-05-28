@@ -5,13 +5,16 @@ export interface Step {
   popover: PopoverConfig;
 }
 
+type PopoverType = 'tooltip' | 'modal' | 'driven action';
+
 export interface PopoverConfig {
   // Please refer to https://driverjs.com/docs/configuration for futher information
   title?: string;
   description?: string;
   detailLink?: string;
-  videoLink?: string;
-  type: 'popover' | 'banner';
+  videoUrl?: string;
+  type: PopoverType;
+  action?: 'click' | 'input';
   side?: 'top' | 'right' | 'bottom' | 'left';
   align?: 'start' | 'center' | 'end';
   showButtons?: ('next' | 'previous' | 'close')[];
