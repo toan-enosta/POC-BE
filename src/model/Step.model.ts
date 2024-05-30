@@ -6,8 +6,15 @@ export interface Step {
 }
 
 type PopoverType = 'tooltip' | 'modal' | 'driven action';
+export interface StyleConfig {
+  titleColor?: string;
+  descriptionColor?: string;
+  fontSize?: number;
+  tooltipBgColor?: string;
+  overlayColor?: string;
+}
 
-export interface PopoverConfig {
+export interface PopoverConfig extends Omit<StyleConfig, 'overlayColor'> {
   // Please refer to https://driverjs.com/docs/configuration for futher information
   title?: string;
   description?: string;
@@ -25,8 +32,4 @@ export interface PopoverConfig {
   showProgress?: boolean;
   progressText?: string;
   popoverClass?: string;
-  titleColor?: string;
-  descriptionColor?: string;
-  fontSize?: number;
-  tooltipBgColor?: string;
 }
