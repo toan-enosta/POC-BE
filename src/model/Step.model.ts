@@ -25,4 +25,8 @@ export interface PopoverConfig {
   showProgress?: boolean;
   progressText?: string;
   popoverClass?: string;
+  titleColor?: string;
+  descriptionColor?: string;
+  fontSize?: number;
+  tooltipBgColor?: string;
 }
